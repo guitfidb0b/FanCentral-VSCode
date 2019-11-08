@@ -3,11 +3,22 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" asp-href-include="lib/bootstrap/dist/css/*.min.css" />
     <title>FanCentral</title>
 </head>
 <body>
-    <div>
-        @RenderBody()
-    </div>
+    <nav class="navbar navbar-inverse bg-info">
+        <a class="navbar-brand text-white" href="#">FANCENTRAL</a>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col col-md-3">
+                Put something useful here later
+            </div>
+            <div class="col col-md-9">
+                @RenderBody()
+            </div>
+        </div>
+    </div>>
 </body>
 </html>
