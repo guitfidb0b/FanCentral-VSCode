@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FanCentral.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20191108030145_InitialCreate")]
+    [Migration("20191108101811_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
